@@ -146,7 +146,7 @@ export default function Home() {
             Container Background
           </div>
           <div
-            className="p-4 rounded-lg font-bold bg-[#EFF1F4] dark:bg-[#202122]"
+            className="p-4 rounded-lg font-bold bg-[#2E3031] dark:bg-[#202122]"
             style={{ border: "1px solid #ddd" }}
           >
             Background
@@ -196,11 +196,11 @@ export default function Home() {
           <input
             type="text"
             placeholder="Text Input"
-            className="input-field w-full p-3"
+            className="border focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 rounded transition-colors duration-300 ease-in-out w-full p-3 border-[#6b7788] bg-[#f8f8f8] dark:border-[#B4BCC7] dark:bg-[#202122]"
           />
           {/* Text Input with Icon */}
           <div className="relative input-with-icon">
-            <span className="icon icon-left">
+            <span className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={16}
@@ -215,13 +215,13 @@ export default function Home() {
             <input
               type="text"
               placeholder="Username"
-              className="input-field w-full p-3 input-left-icon"
+              className="border focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 rounded transition-colors duration-300 ease-in-out w-full p-3 border-[#6b7788] bg-[#f8f8f8] dark:border-[#B4BCC7] dark:bg-[#202122]  ps-10"
             />
           </div>
           {/* Text Area */}
           <textarea
             placeholder="Textarea"
-            className="input-field w-full p-3 h-24"
+            className="input-field w-full p-3 h-24 border focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500 rounded transition-colors duration-300 ease-in-out w-full p-3 border-[#6b7788] bg-[#f8f8f8] dark:border-[#B4BCC7] dark:bg-[#202122]"
             defaultValue={""}
           />
           <div className="flex items-center space-x-4">
@@ -272,7 +272,7 @@ export default function Home() {
       {/* Cards Section */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Cards</h2>
-        <div className="material-card bg-[#F8F8F8] dark:bg-[#2E3031] rounded-lg overflow-hidden">
+          <div className="material-card bg-[#F8F8F8] dark:bg-[#2E3031] rounded-lg overflow-hidden">
           <img
             src="https://placehold.co/600x300/4452E3/white?text=Card+Image"
             alt="Placeholder Image"
@@ -286,7 +286,7 @@ export default function Home() {
             </p>
           </div>
           <div className="p-6 pt-0">
-            <button className="btn btn-primary py-2 px-4 rounded">Action</button>
+            <button className="btn btn-primary font-bold py-2 px-4 rounded bg-[#4452E3] text-[#EEEEF3] dark:bg-[#4452E3] dark:text-[#EEEEF3] hover:bg-[#3944B9] dark:hover:bg-[#3944B9]">Action</button>
           </div>
         </div>
       </section>

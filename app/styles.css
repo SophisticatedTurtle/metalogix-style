@@ -1,77 +1,15 @@
-@import "tailwindcss";
-
-@theme {
-    --font-display: "Satoshi", "sans-serif";
-}
-
 
 /* Custom styles to align with Material Design */
             body {
-               /* font-family: 'Open Sans', sans-serif; */
+                font-family: 'Open Sans', sans-serif;
                 color: #212327;
                 background-color: #EFF1F4;
             }
-        .material-card {
-        }
-        /* Typography Styles */
-        /* Button styles */
-        /* Text Field styles */
-        .input-field {
-            border: 1px solid #B4BCC7;
-            border-radius: 4px;
-            transition: border-color 0.3s ease;
-        }
-        .input-field:focus {
-            outline: none;
-            border-color: #4452E3;
-            box-shadow: 0 0 0 2px #C0D9EB;
-        }
-        .input-with-icon .icon {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #757575;
-        }
-        .input-with-icon .icon-left {
-            left: 0.75rem; /* 12px */
-        }
-        .input-with-icon .input-left-icon {
-            padding-left: 2.5rem; /* 40px */
-        }
          /* darkmode */
         @media (prefers-color-scheme: dark){
             body {
                 font-family: 'Open Sans', sans-serif;
                 color: #D4DBDF;
                 background-color: #202122;
-            }
-            .material-card {
-            }
-            /* Typography Styles */
-            /* Button styles */
-
-            /* Text Field styles */
-            .input-field {
-                border: 1px solid #B4BCC7;
-                background-color: #202122;
-                border-radius: 4px;
-                transition: border-color 0.3s ease;
-            }
-            .input-field:focus {
-                outline: none;
-                border-color: #4452E3;
-                box-shadow: 0 0 0 2px #C0D9EB;
-            }
-            .input-with-icon .icon {
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                color: #757575;
-            }
-            .input-with-icon .icon-left {
-                left: 0.75rem; /* 12px */
-            }
-            .input-with-icon .input-left-icon {
-                padding-left: 2.5rem; /* 40px */
             }
         }
