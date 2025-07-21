@@ -98,7 +98,8 @@ export default function Home() {
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto"
+    >
       <h1 className="text-4xl font-bold text-gray-800 mb-8">
         Material-Inspired Design System
       </h1>
@@ -156,19 +157,19 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Typography</h2>
         <div className="space-y-4 bg-white dark:bg-[#2E3031] p-6 rounded-lg material-card">
-          <h1 className="text-5xl">Headline 1</h1>
-          <h2 className="text-4xl">Headline 2</h2>
-          <h3 className="text-3xl">Headline 3</h3>
-          <h4 className="text-2xl">Headline 4</h4>
-          <p className="text-base">
+          <h1 className="text-5xl font-bold text-[#202732] dark:text-[#F4F7F9]">Headline 1</h1>
+          <h2 className="text-4xl font-bold text-[#394352] dark:text-[#E9EEF0]">Headline 2</h2>
+          <h3 className="text-3xl font-bold text-[#566377] dark:text-[#E9EEF0]">Headline 3</h3>
+          <h4 className="text-2xl font-bold text-[#6B7788] dark:text-[#D4DBDF]">Headline 4</h4>
+          <p className="text-base text-[#6B7788] dark:text-[#D4DBDF]">
             This is a paragraph of body text. It's used for long-form content.
             Roboto is a clean and legible font that works well for user
             interfaces.
           </p>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-500 dark:text-[#8891EF]"> 
             This is a smaller caption or helper text.
           </p>
-          <blockquote className="border-l-4 border-[#4452E3] pl-4 italic">
+          <blockquote className="border-l-4 border-[#4452E3] pl-4 italic text-[#6B7788] dark:text-[#D4DBDF]">
             "This is a blockquote, perfect for highlighting a quote or important
             piece of information."
           </blockquote>
@@ -178,11 +179,11 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-700 mb-4">Buttons</h2>
         <div className="space-x-4 bg-[#F8F8F8] dark:bg-[#2E3031] p-6 rounded-lg material-card">
-          <button className="btn btn-primary py-2 px-4 rounded">Primary</button>
-          <button className="btn btn-secondary py-2 px-4 rounded">
+          <button className="btn btn-primary font-bold py-2 px-4 rounded bg-[#4452E3] text-[#EEEEF3] dark:bg-[#4452E3] dark:text-[#EEEEF3] hover:bg-[#3944B9] dark:hover:bg-[#3944B9]">Primary</button>
+          <button className="btn btn-secondary font-bold py-2 px-4 rounded bg-[#61BDFF] text-[#202732] dark:bg-[#61BDFF] dark:text-[#202732] hover:bg-[#3E98D8] dark:hover:bg-[#3E98D8]">
             Secondary
           </button>
-          <button className="btn btn-tertiary py-1 px-4 rounded">Tertiary</button>
+          <button className="btn btn-tertiary py-1 px-4 rounded font-bold bg-[#E4F4FF] text-[#202732] dark:bg-[#273743] dark:text-[#3E98D8] hover:bg-[#C0D9EB] dark:hover:bg-[#2E5672]">Tertiary</button>
         </div>
       </section>
       {/* Form Elements Section */}

@@ -7,54 +7,7 @@
         .material-card {
         }
         /* Typography Styles */
-        .text-5xl {
-            font-weight:bold;
-            color:#202732;
-        }
-        .text-4xl {
-            font-weight:bold;
-            color:#394352;
-        }
-        .text-3xl {
-            color:#394352;
-        }
-        .text-2xl {
-            color:#566377;
-        }
-        .text-base {
-            color: #6B7788;
-        }
         /* Button styles */
-        .btn {
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            transition: background-color 0.3s ease;
-            border-radius: 4px;
-        }
-        .btn-primary {
-            background-color: #4452E3;
-            font-weight: bold;
-            color:#EEEEF3 ;
-        }
-        .btn-primary:hover {
-            background-color: #3944B9;
-        }
-        .btn-secondary {
-            background-color: #61BDFF;
-            font-weight: bold;
-            color: #202732;
-        }
-        .btn-secondary:hover {
-            background-color: #3E98D8;
-        }
-        .btn-tertiary {
-           background-color: #E4F4FF;
-           font-weight: bold;
-           color: #202732;
-        }
-        .btn-tertiary:hover {
-           background-color: #C0D9EB;
-        }
         /* Text Field styles */
         .input-field {
             border: 1px solid #B4BCC7;
@@ -88,54 +41,7 @@
             .material-card {
             }
             /* Typography Styles */
-            .text-5xl {
-                font-weight:bold;
-                color:#F4F7F9;
-            }
-            .text-4xl {
-                font-weight:bold;
-                color:#F4F7F9;
-            }
-            .text-3xl {
-                color:#E9EEF0;
-            }
-            .text-2xl {
-                color:#E9EEF0;
-            }
-            .text-base {
-                color: #D4DBDF;
-            }
             /* Button styles */
-            .btn {
-                text-transform: uppercase;
-                letter-spacing: 0.05em;
-                transition: background-color 0.3s ease;
-                border-radius: 4px;
-            }
-            .btn-primary {
-                background-color: #4452E3;
-                font-weight: bold;
-                color:#EEEEF3 ;
-            }
-            .btn-primary:hover {
-                background-color: #3944B9;
-            }
-            .btn-secondary {
-                background-color: #61BDFF;
-                font-weight: bold;
-                color: #202732;
-            }
-            .btn-secondary:hover {
-                background-color: #3E98D8;
-            }
-            .btn-tertiary {
-               background-color: #273743;
-               font-weight: bold;
-               color: #3E98D8;
-            }
-            .btn-tertiary:hover {
-               background-color: #2E5672;
-            }
             /* Text Field styles */
             .input-field {
                 border: 1px solid #B4BCC7;
