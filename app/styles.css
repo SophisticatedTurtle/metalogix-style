@@ -1,6 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --font-display: "Satoshi", "sans-serif";
+}
+
+
 /* Custom styles to align with Material Design */
             body {
-                font-family: 'Open Sans', sans-serif;
+               /* font-family: 'Open Sans', sans-serif; */
                 color: #212327;
                 background-color: #EFF1F4;
             }
@@ -42,6 +49,7 @@
             }
             /* Typography Styles */
             /* Button styles */
+
             /* Text Field styles */
             .input-field {
                 border: 1px solid #B4BCC7;
