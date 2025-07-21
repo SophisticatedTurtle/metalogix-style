@@ -1,4 +1,4 @@
-# Metalogix Styling Guide v.1.0
+# Metalogix Styling Guide v.2.0
 
 This documentation provides detailed styling guidelines and code snippets for all website components. Follow these specifications exactly to maintain consistency across the entire website.
 
